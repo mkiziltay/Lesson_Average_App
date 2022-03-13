@@ -26,7 +26,7 @@ class _AveragePageState extends State<AveragePage> {
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
         elevation: 0,
-        backgroundColor: Colors.transparent,
+        backgroundColor: Colors.transparent,//Transparent color for App Bar
         title: Center(
             child: Text(
           mainTitle,
