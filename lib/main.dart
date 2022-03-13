@@ -14,7 +14,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(debugShowCheckedModeBanner: false,
       title: 'Lesson Averages',
-      theme: ThemeData(primarySwatch: secondColor, visualDensity: VisualDensity.adaptivePlatformDensity),
+      theme: ThemeData(primarySwatch: secondColor,
+      visualDensity: VisualDensity.adaptivePlatformDensity),
       home: AveragePage(),
     );
   }
