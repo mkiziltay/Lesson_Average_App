@@ -57,7 +57,7 @@ class _AveragePageState extends State<AveragePage> {
               onRemoved: (index) {
                 DataHelper.addedLessons.removeAt(index);
                 setState(() {});
-                //print('item removed : $index');
+                //print('item removed : $index'); //prints dropped item
               },
             ),
           ),
