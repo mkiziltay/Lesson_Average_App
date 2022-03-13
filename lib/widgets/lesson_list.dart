@@ -4,6 +4,7 @@ import 'package:lesson_average/constants.dart';
 import 'package:lesson_average/helper/data_helper.dart';
 
 class LessonList extends StatelessWidget {
+  
   final Function onRemoved;
 
   const LessonList({required this.onRemoved, Key? key}) : super(key: key);
