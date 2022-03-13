@@ -23,9 +23,9 @@ final cBorderRadius = BorderRadius.circular(24);
 const dropListPadding = EdgeInsets.symmetric(horizontal: 16, vertical: 8);
 
 const leftPadding = EdgeInsets.only(left: 8);
-/*
+/* Not required class for canstants. it's a choice.
 class Constants {
   static const colorPrimary = Color.fromARGB(255, 2, 163, 212);
-
+  
 }
 */
