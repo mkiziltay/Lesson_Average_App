@@ -28,10 +28,7 @@ class _AveragePageState extends State<AveragePage> {
         elevation: 0,
         backgroundColor: Colors.transparent,//Transparent color for App Bar
         title: Center(
-            child: Text(
-          mainTitle,
-          style: titleStyle,
-        )),
+            child: Text( mainTitle, style: titleStyle)),
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
