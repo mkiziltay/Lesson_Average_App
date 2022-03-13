@@ -125,7 +125,7 @@ class _AveragePageState extends State<AveragePage> {
       var lessonItem =
           Lesson(lessonEntry, selectedLetterVal, selectedCreditVal);
       DataHelper.addLesson(lessonItem);
-      print(DataHelper.calculateAverage());
+      print(DataHelper.calculateAverage()); //FIXME: remove for production
       setState(() {});
     }
   }
