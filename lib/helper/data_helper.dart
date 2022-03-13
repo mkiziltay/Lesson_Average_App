@@ -43,7 +43,7 @@ class DataHelper {
         .toList();
   }
 
-  //all Credits
+  //generating all Credits
   static List<int> _allCredits() {
     return List.generate(10, (index) => index + 1).toList();
   }
@@ -67,7 +67,6 @@ class DataHelper {
   }
 
   // calculate average
-
   static double calculateAverage() {
     double totalPoint = 0;
     double totalCredit = 0;
