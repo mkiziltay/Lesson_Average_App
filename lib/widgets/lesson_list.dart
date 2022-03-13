@@ -11,7 +11,7 @@ class LessonList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<Lesson> allLessons = DataHelper.addedLessons;
-    return allLessons.length > 0
+    return allLessons.length > 0 //if bigger than 0 do this
         ? ListView.builder(
             itemCount: allLessons.length,
             itemBuilder: ((context, index) {
@@ -37,7 +37,7 @@ class LessonList extends StatelessWidget {
                 ),
               );
             }))
-        : Container(
+        : Container( //else (if not bigger than 0) do this.
             child: Text(
               '\t\tNo Added Lesson',
               style: titleStyle,
