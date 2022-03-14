@@ -1,7 +1,7 @@
 # Lesson Average App (Ders Ortalaması Uygulaması)
 * A total average calculator app for lesson points and listing lessons names.
 * Used dart language with Flutter framework.
-* Used disposable list, dropdownitem list, 
+* Used disposable list, dropdownitem list, Circle avatar frame.
 
 ## Code written directories 
 * ..\lib\ (source files)
