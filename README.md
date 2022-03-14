@@ -6,5 +6,5 @@
 * pubspec.yaml (external libraries)
 
 ## External libraries
-### google_fonts:
+* ### google_fonts:
 
