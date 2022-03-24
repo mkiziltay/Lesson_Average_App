@@ -8,7 +8,7 @@
 * pubspec.yaml (external libraries)
 
 ## Used : External libraries
-add this two library to path : under dependecies in pubspec.yaml file.
+add this libraries to path : under dependecies in pubspec.yaml file.
 * ### google_fonts:
 
 ## Screenshot
